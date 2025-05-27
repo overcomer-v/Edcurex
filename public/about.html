@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="icons/css/all.css" />
+    <title>About Us</title>
+  </head>
+  <body
+    class="h-full w-full [&_button:hover]:opacity-60 font-serif flex flex-col items-center"
+  >
+   
+    <header class="flex justify-between w-full [&_a]:text-sm items-center px-8 md:px-32 py-4">
+      <div class="md:!hidden !flex fa fa-bars text-2xl" id="nav-btn"></div>
+      <div class="flex items-center gap-1">
+        <i class="fa fa-droplet text-blue-500 text-2xl"></i>
+        <h3 class="text-[1.2rem] md:text-2xl font-semibold">EdCure</h3>
+      </div>
+      <div class="md:flex gap-4 [&_a]:text-gray-700 hidden">
+        <a href="index.html">Home</a>
+        <a class="border-b-4 border-blue-500" href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="flex gap-5 items-center">
+        <a
+          class="py-3 px-4 !text-xs bg-blue-500 text-white rounded-full font-bold"
+          href=""
+          >Sign Up</a
+        >
+      </div>
+    </header>
+     <div
+      id="nav-menu"
+      class="hidden transition-all px-4 ease-in-out duration-500 left-0 w-full  z-50"
+    >
+      <div class="flex flex-wrap  justify-center rounded-lg center w-full h-full py-4  bg-blue-700 gap-8 [&_a]:text-[0.9rem] text-white">
+      
+        <div>
+          <i class="fa fa-home mr-2 opacity-70"></i>
+          <a href="index.html">Home</a>
+        </div>
+
+        <div>
+          <i class="fa fa-bullseye mr-2 opacity-70"></i>
+          <a href="about.html">About</a>
+        </div>
+
+        <div>
+          <i class="fa fa-bullseye mr-2 opacity-70"></i>
+          <a href="contact.html">Contact</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-5xl my-20">About Us</div>
+
+    <section class="px-8 md:px-32 md:mt-16 mb-16" id="about">
+      <div class="mb-28 w-full grid md:grid-cols-[30%_50%] gap-8 justify-between">
+        <div>
+          <h4
+            class="w-fit font-semibold text-xs p-2 mb-2 text-blue-400 bg-blue-100"
+          >
+            OUR MISSION
+          </h4>
+          <h1 class="text-4xl font-bold">To Revolutionize Healthcare</h1>
+        </div>
+        <div class="flex gap-6 items-center">
+          <div class="h-full w-4 bg-blue-500"></div>
+          <p
+            class="text-sm font-extralight opacity-90 tracking-wider leading-relaxed"
+          >
+            To provide accurate accessible and up-to-date medical information
+            that empowers indivual to make informed health decisions. We are
+            commited to promoting wellness, supporting patient education and
+            connecting users with trusted healthcare resources and
+            professionals.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <img
+          class="h-[300px] md:h-[400px] w-full object-cover rounded-l-3xl"
+          src="./media-files/pexels-jonathanborba-3259624.jpg"
+          alt=""
+        />
+        <div
+          class="flex flex-col items-center justify-center gap-8 [&_h2]:font-bold [&_h2]:mb-2 [&_h2]:text-blue-600"
+        >
+          <div>
+            <h2>OUR VALUES</h2>
+            <p
+              class="text-sm font-extralight opacity-90 tracking-wider leading-relaxed"
+            >
+              To provide accurate accessible and up-to-date medical information
+              that empowers indivual to make informed health decisions. We are
+              commited to promoting wellness, supporting patient education and
+              connecting users with trusted healthcare resources and
+              professionals.
+              <span class="block my-4">
+                Our Commitment extends to staying current with medical
+                advancements, ensuring all content is reviewed by qualified
+                proffessionals.
+              </span>
+            </p>
+          </div>
+          <div>
+            <h2>OUR MISSION</h2>
+            <p
+              class="text-sm font-extralight opacity-90 tracking-wider leading-relaxed"
+            >
+              To provide accurate accessible and up-to-date medical information
+              that empowers indivual to make informed health decisions. We are
+              commited to promoting wellness, supporting patient education and
+              connecting users with trusted healthcare resources and
+              professionals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="review-section "
+      class="py-20 px-6 md:px-32 grid md:grid-cols-2 gap-y-8 items-center"
+    >
+      <div class="flex flex-col gap-4 w-[80%]">
+        <h4 class="w-fit font-semibold text-xs p-2 text-blue-400 bg-blue-100">
+          REVIEWS
+        </h4>
+        <h1 class="text-3xl font-semibold">What Our Patients Say About Us</h1>
+        <p>Our team is dedicated in providing personalized cared</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 items-center justify-center w-full gap-6">
+        <div class="flex flex-col gap-4 w-full bg-blue-50 rounded-lg p-6">
+          <p class="font-semibold text-sm md:text-1xl">
+            The live consultation with my doctor was a good experience. It was
+            as if i was there in person but from the comfort of my home
+          </p>
+          <div class="grid grid-cols-[50px_1fr]">
+            <img
+              class="h-9 w-9 object-cover rounded-full row-span-2"
+              src="media-files/pexels-shkrabaanthony-5214997.jpg"
+              alt=""
+            />
+            <h5 class="font-semibold text-xs">Wendy M</h5>
+            <div class="flex [&>i]:text-xs">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4 w-full bg-blue-50 rounded-lg p-6">
+          <p class="font-semibold text-sm md:text-1xl">
+            The live consultation with my doctor was a good experience. It was
+            as if i was there in person but from the comfort of my home
+          </p>
+          <div class="grid grid-cols-[50px_1fr]">
+            <img
+              class="h-9 w-9 object-cover rounded-full row-span-2"
+              src="media-files/pexels-shkrabaanthony-5214997.jpg"
+              alt=""
+            />
+            <h5 class="font-semibold text-xs">Wendy M</h5>
+            <div class="flex [&>i]:text-xs">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
